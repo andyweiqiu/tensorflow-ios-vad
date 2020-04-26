@@ -1,6 +1,8 @@
 # tensorflow-ios-vad
 基于TensorFlow的iOS本地Vad，整个vad检测的过程都在本地完成，不需要通过网络传输到服务器解码。
 
+该项目是实时音频vad检测。
+
 该项目当前编译TensorFlow版本号为1.14
 
 该vad项目是在TensorFlow上解码，所以将TensorFlow编译成iOS使用的静态库。
