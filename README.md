@@ -8,6 +8,6 @@ cocoapod方式因为github限制单个文件大小，没有开放出来，所以
 
 编译可参考https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/ios
 
-vad网络结构：CNN+LSTM
+vad模型网络结构：CNN+LSTM
 
 目前vad内部已做平滑处理，直接输出某段音频状态（有效声音/无效声音），亦可输出音频每一帧的vad状态（1/0）。
