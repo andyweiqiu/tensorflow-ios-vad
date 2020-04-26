@@ -7,7 +7,7 @@
 编译成功后，按照TensorFlow官方文档在Xcode上集成。集成完成编译无误后，即可执行该项目进行vad体验。
 cocoapod方式因为github限制单个文件大小，没有开放出来，所以只在内网部署。
 
-编译可参考https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/ios
+编译及集成可参考官方：https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/ios
 
 vad模型网络结构：CNN+LSTM
 
